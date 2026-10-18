@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kakehashi Localization | English to Japanese translation</title>
+<meta name="description" content="English to Japanese localization for games, software and online stores. Machine translation edited by native Japanese linguists, or full human translation. Priced per source word, quoted in your currency.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+@font-face{font-family:"EB Garamond";font-weight:400;font-display:swap;src:url(ebgaramond-400.woff2) format("woff2")}
+@font-face{font-family:"EB Garamond";font-weight:500;font-display:swap;src:url(ebgaramond-500.woff2) format("woff2")}
+@font-face{font-family:Figtree;font-weight:400;font-display:swap;src:url(figtree-400.woff2) format("woff2")}
+@font-face{font-family:Figtree;font-weight:600;font-display:swap;src:url(figtree-600.woff2) format("woff2")}
+@font-face{font-family:"Shippori Mincho";font-weight:600;font-display:swap;src:url(shippori-600.woff2) format("woff2")}
+@font-face{font-family:"Shippori Mincho";font-weight:800;font-display:swap;src:url(shippori-800.woff2) format("woff2")}
+</style>
+<style>
+:root{--ground:#e9eef1;--paper:#f6f8f9;--ai:#1f4a73;--sumi:#26221f;--beni:#b23a3a;--slate:#4f5b66;--rule:#c5d0d8}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ground);color:var(--sumi);font:17px/1.7 Figtree,system-ui,sans-serif}
+a{color:var(--ai)}
+:focus-visible{outline:2px solid var(--beni);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 32px}
+.serif{font-family:"EB Garamond",Georgia,serif;font-weight:500}
+.ja{font-family:"Shippori Mincho",serif}
+
+header .wrap{display:flex;justify-content:space-between;align-items:center;height:88px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ai)}
+.brand svg{width:52px;height:auto}
+.brand span{font-family:"EB Garamond",serif;font-weight:500;font-size:23px;letter-spacing:.01em}
+nav a{margin-left:26px;color:var(--slate);text-decoration:none;font-size:15px}
+nav a:hover{color:var(--ai)}
+
+.hero .wrap{display:grid;grid-template-columns:1fr auto;gap:56px;align-items:start;padding-top:48px;padding-bottom:72px}
+.hero h1{font-family:"EB Garamond",serif;font-weight:500;font-size:64px;line-height:1.06;color:var(--ai);margin:24px 0 26px;max-width:17ch}
+.hero p{font-size:19px;max-width:34em;color:#3b4652;margin:0 0 36px}
+.btn{display:inline-block;background:var(--beni);color:#fff;padding:14px 28px;text-decoration:none;font-weight:600;font:600 16px Figtree,sans-serif;border:0;cursor:pointer}
+.btn:hover{background:#9c3030}
+.price-hint{margin-left:22px;color:var(--slate);font-size:15px}
+.hero .tate{color:var(--sumi);writing-mode:vertical-rl;font-family:"Shippori Mincho",serif;font-weight:800;font-size:56px;letter-spacing:.14em;line-height:1.5;border-left:3px solid var(--beni);padding-left:24px;margin:0}
+
+section{padding:96px 0}
+section.paper{background:var(--paper)}
+h2{font-family:"EB Garamond",serif;font-weight:500;font-size:40px;line-height:1.15;color:var(--ai);margin:0 0 14px}
+.lead{color:var(--slate);max-width:36em;margin:0 0 48px}
+
+.fields{display:grid;grid-template-columns:repeat(3,1fr);gap:48px}
+.fields div{border-top:2px solid var(--ai);padding-top:20px}
+.fields h3{font-family:"EB Garamond",serif;font-weight:500;font-size:27px;margin:0 0 4px}
+.fields .jp{font-family:"Shippori Mincho",serif;color:var(--beni);font-size:15px;margin:0 0 12px}
+.fields p{color:#3b4652;margin:0;font-size:16px}
+
+table{width:100%;border-collapse:collapse}
+th,td{text-align:left;padding:20px 16px 20px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-weight:600;color:var(--slate);font-size:14px}
+td:first-child{font-family:"EB Garamond",serif;font-size:22px;font-weight:500;width:30%}
+td.p{font-family:"EB Garamond",serif;font-size:26px;color:var(--ai);white-space:nowrap;text-align:right;padding-right:0}
+.note{color:var(--slate);font-size:15px;margin-top:20px}
+
+.steps{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(5,1fr);gap:28px;counter-reset:s;position:relative}
+.steps li{counter-increment:s;position:relative;padding-top:64px}
+.steps li::before{content:counter(s);position:absolute;top:0;left:0;font-family:"EB Garamond",serif;font-size:40px;color:var(--ai);line-height:1}
+.steps li::after{content:"";position:absolute;top:22px;left:40px;right:-20px;border-top:1px solid var(--rule)}
+.steps li:last-child::after{display:none}
+.steps h3{font-family:"EB Garamond",serif;font-weight:500;font-size:22px;margin:0 0 6px}
+.steps p{margin:0;color:#3b4652;font-size:15px}
+
+.tabs{display:flex;gap:28px;margin-bottom:28px;border-bottom:1px solid var(--rule)}
+.tabs button{background:none;border:0;padding:0 0 12px;font:16px Figtree,sans-serif;color:var(--slate);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px}
+.tabs button[aria-selected=true]{color:var(--ai);border-bottom-color:var(--beni);font-weight:600}
+.spread{display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:2px solid var(--ai)}
+.spread div{padding:28px 32px 28px 0}
+.spread div+div{border-left:1px solid var(--rule);padding-left:32px}
+.spread .en{font-family:"EB Garamond",serif;font-size:24px;line-height:1.45}
+.spread .jt{font-family:"Shippori Mincho",serif;font-size:21px;line-height:1.9;font-weight:600}
+.spread small{display:block;color:var(--slate);font-size:13px;margin-bottom:10px}
+.why{color:#3b4652;max-width:40em;margin:24px 0 0}
+
+.pledge{display:grid;grid-template-columns:repeat(2,1fr);gap:40px 64px}
+.pledge h3{font-family:"EB Garamond",serif;font-weight:500;font-size:24px;margin:0 0 6px}
+.pledge p{margin:0;color:#3b4652}
+
+details{border-bottom:1px solid var(--rule);padding:20px 0}
+details:first-of-type{border-top:1px solid var(--rule)}
+summary{cursor:pointer;font-family:"EB Garamond",serif;font-size:22px;list-style:none;display:flex;justify-content:space-between}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--beni)}
+details[open] summary::after{content:"\2212"}
+details p{color:#3b4652;margin:12px 0 0;max-width:46em}
+
+form{display:grid;grid-template-columns:1fr 1fr;gap:20px 28px;max-width:820px}
+label{font-size:14px;color:var(--slate);display:block;margin-bottom:6px}
+input,select,textarea{width:100%;padding:12px 14px;border:1px solid var(--rule);background:#fff;font:16px Figtree,sans-serif;color:var(--sumi)}
+.full{grid-column:1/-1}
+
+footer{background:var(--sumi);color:#cfc9c2;padding:56px 0;font-size:15px}
+footer a{color:#fff}
+footer .wrap{display:flex;justify-content:space-between;gap:40px;flex-wrap:wrap}
+footer dl{display:grid;grid-template-columns:auto 1fr;gap:6px 24px;margin:0}
+footer dt{color:#8f8780}footer dd{margin:0}
+
+@media(max-width:860px){
+ .hero .wrap{grid-template-columns:1fr}.hero .tate{writing-mode:horizontal-tb;border-left:0;border-top:3px solid var(--beni);padding:18px 0 0;font-size:30px;letter-spacing:.06em}
+ .hero h1{font-size:44px}nav{display:none}.fields,.pledge,.spread,form{grid-template-columns:1fr}
+ .spread div+div{border-left:0;border-top:1px solid var(--rule);padding-left:0}
+ .steps{grid-template-columns:1fr}.steps li::after{display:none}.price-hint{display:block;margin:14px 0 0}
+ td:first-child{width:auto}section{padding:72px 0}
+}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="#" aria-label="Kakehashi Localization home">
+<svg viewBox="0 0 360 70" aria-hidden="true"><defs><linearGradient id="g" x1="0" x2="1"><stop offset=".5" stop-color="#1f4a73"/><stop offset=".5" stop-color="#b23a3a"/></linearGradient></defs><path d="M30 52 Q180 -8 330 52" fill="none" stroke="url(#g)" stroke-width="12" stroke-linecap="round"/><path d="M10 64 Q180 34 350 64" fill="none" stroke="url(#g)" stroke-width="6" stroke-linecap="round"/><line x1="80" y1="14" x2="80" y2="56" stroke="#1f4a73" stroke-width="10" stroke-linecap="round"/><line x1="280" y1="14" x2="280" y2="56" stroke="#b23a3a" stroke-width="10" stroke-linecap="round"/></svg>
+<span>Kakehashi Localization</span></a>
+<nav><a href="#services">Services</a><a href="#pricing">Pricing</a><a href="#samples">Samples</a><a href="#faq">FAQ</a><a href="#quote">Contact</a></nav>
+</div></header>
+
+<div class="hero">
+<div class="wrap">
+<div>
+<h1>Your product, in Japanese that reads like it was written in Japan.</h1>
+<p>English to Japanese localization for games, software and online stores, edited by native linguists who live and work in Japan.</p>
+<a class="btn" href="#quote">Get a free quote</a><span class="price-hint">Free quote in your currency</span>
+</div>
+<p class="tate" lang="ja">日本で書かれたように<br>読める日本語へ。</p>
+</div>
+</div>
+
+<section id="services" class="paper"><div class="wrap">
+<h2>What we translate</h2>
+<p class="lead">One language pair, done properly. We focus on the text that decides whether Japanese users stay or leave.</p>
+<div class="fields">
+<div><h3>Games and apps</h3><p class="jp" lang="ja">ゲーム・アプリ</p><p>UI strings, items and skills, dialogue, tutorials, store pages and patch notes. One glossary keeps names consistent from launch through every update.</p></div>
+<div><h3>Software and SaaS</h3><p class="jp" lang="ja">ソフトウェア</p><p>Interface strings, help articles, onboarding and billing emails, and landing pages, worked directly in JSON, YAML, PO, XLIFF, CSV or spreadsheets.</p></div>
+<div><h3>Online stores</h3><p class="jp" lang="ja">オンラインストア</p><p>Product pages, size guides, shipping and return policies, and marketplace listings in the polite, precise tone Japanese shoppers expect.</p></div>
+</div>
+</div></section>
+
+<section id="pricing"><div class="wrap">
+<h2>How pricing works</h2>
+<p class="lead">A fixed price per English source word, set by the service you choose and confirmed in writing before we start. No hourly billing and no project fees.</p>
+<table>
+<tr><th>Service</th><th>What you get</th></tr>
+<tr><td>Edited machine translation</td><td>Machine translation, then a native Japanese linguist edits every sentence and a second person checks numbers, terms and anything left out.</td></tr>
+<tr><td>Human translation</td><td>Translated by a native Japanese translator and reviewed by a second linguist. Best for marketing copy, dialogue and anything customer-facing.</td></tr>
+<tr><td>Rush delivery</td><td>Delivery in roughly half the usual time, for 30% extra.</td></tr>
+</table>
+<p class="note">Exact repeated sentences are charged at 30% of the word rate. We quote in USD, EUR, GBP, CAD, AUD, SGD or CHF, usually within one business day, and quotes are valid for 7 days. Business customers only.</p>
+</div></section>
+
+<section id="process" class="paper"><div class="wrap">
+<h2>How a project runs</h2>
+<p class="lead">The same five steps every time, so you always know what happens next.</p>
+<ol class="steps">
+<li><h3>Quote</h3><p>Send your files. We count the words and usually reply within one business day.</p></li>
+<li><h3>Agree</h3><p>Reply "I agree" and pay 50% up front by card or bank transfer.</p></li>
+<li><h3>Translate</h3><p>A native linguist translates or edits. Context questions come to you in one batch.</p></li>
+<li><h3>Check</h3><p>A second person checks terms, numbers, tags and anything left out.</p></li>
+<li><h3>Deliver</h3><p>Files in your format, plus a glossary. The rest is due within 14 days.</p></li>
+</ol>
+</div></section>
+
+<section id="samples"><div class="wrap">
+<h2>Samples</h2>
+<p class="lead">Good Japanese is not a word-for-word copy of the English. Here is what we change, and why.</p>
+<div class="tabs" role="tablist">
+<button role="tab" aria-selected="true" data-k="game">Game</button>
+<button role="tab" aria-selected="false" data-k="saas">SaaS</button>
+<button role="tab" aria-selected="false" data-k="shop">Online store</button>
+</div>
+<div class="spread"><div><small>English</small><p class="en" id="s-en"></p></div><div><small>Japanese</small><p class="jt" id="s-ja" lang="ja"></p></div></div>
+<p class="why" id="s-why"></p>
+</div></section>
+
+<section class="paper"><div class="wrap">
+<h2>What you can count on</h2>
+<p class="lead">Four things we hold to on every project.</p>
+<div class="pledge">
+<div><h3>Native linguists in Japan</h3><p>Every project is translated or edited, then checked, by native Japanese linguists based in Japan, so the Japanese follows how people write today.</p></div>
+<div><h3>Two people on every file</h3><p>One person translates or edits, a different person checks. Nothing ships after a single pass.</p></div>
+<div><h3>Clear terms</h3><p>A written scope, a fixed delivery date and a per-word price. Read our <a href="terms.html">terms of service</a> before you order.</p></div>
+<div><h3>Your files stay private</h3><p>Used only for your project and deleted 30 days after delivery. We sign your NDA on request.</p></div>
+</div>
+</div></section>
+
+<section id="faq"><div class="wrap">
+<h2>Questions</h2>
+<p class="lead">If yours is not here, email us.</p>
+<details><summary>Can you do a test translation first?</summary><p>Yes. We translate up to 300 words of your own content for a small fee, which we deduct from your first order.</p></details>
+<details><summary>Which file formats do you accept?</summary><p>JSON, YAML, PO, XLIFF, CSV, XLSX, DOCX, Markdown and HTML. If yours is not listed, send a sample and we will check.</p></details>
+<details><summary>How fast can you deliver?</summary><p>As a guide, about 5,000 words in 5 business days for edited machine translation, and about 2,000 words in 3 business days for human translation. Rush delivery costs 30% extra.</p></details>
+<details><summary>Do you use AI?</summary><p>For edited machine translation, yes: a machine translation is the starting point and a native linguist edits every sentence. Human translation is done by a person from the start. Our AI tools are set not to use your content for training.</p></details>
+<details><summary>How do I pay?</summary><p>By card (Stripe) or bank transfer, in the currency of your quote: 50% before we start, 50% within 14 days of delivery.</p></details>
+<details><summary>What if I am not happy with the translation?</summary><p>Tell us within 7 days of delivery. Errors on our side are fixed free of charge at any time, and one round of style changes is free.</p></details>
+<details><summary>Do you work with translation agencies?</summary><p>Yes. Agencies can use us as their English to Japanese vendor. Ask us for vendor rates.</p></details>
+<details><summary>I am a translator. Can I work with you?</summary><p>If you are a native Japanese linguist based in Japan and translate English into Japanese, email us with your experience, the fields you cover and the tools you use.</p></details>
+</div></section>
+
+<section id="quote" class="paper"><div class="wrap">
+<h2>Get a free quote</h2>
+<p class="lead">Fill in the form and your email app opens with the details. Attach your files to that email, or include a link. We usually reply within one business day, Japan time.</p>
+<form id="qf">
+<div><label for="f-name">Your name</label><input id="f-name" autocomplete="name" required></div>
+<div><label for="f-co">Company</label><input id="f-co" autocomplete="organization" required></div>
+<div><label for="f-mail">Email</label><input id="f-mail" type="email" autocomplete="email" required></div>
+<div><label for="f-svc">Service</label><select id="f-svc"><option>Edited machine translation</option><option>Human translation</option><option>Not sure yet</option></select></div>
+<div><label for="f-words">Approximate word count</label><input id="f-words" placeholder="12,000"></div>
+<div><label for="f-date">Deadline</label><input id="f-date" placeholder="November 30"></div>
+<div class="full"><label for="f-msg">About the project</label><textarea id="f-msg" rows="5" placeholder="What it is, who will read it, and any file formats or tools we should know about"></textarea></div>
+<div class="full"><button class="btn" type="submit">Open email with my request</button></div>
+</form>
+<p class="note">Or write to <a href="mailto:contact@kakehashilocalization.com">contact@kakehashilocalization.com</a></p>
+</div></section>
+
+<footer><div class="wrap">
+<dl>
+<dt>Business name</dt><dd>Kakehashi Localization</dd>
+<dt>Address</dt><dd>Osaka Ekimae Dai-2 Building 12-12, 1-2-2 Umeda, Kita-ku, Osaka 530-0001, Japan</dd>
+<dt>Email</dt><dd><a href="mailto:contact@kakehashilocalization.com">contact@kakehashilocalization.com</a></dd>
+</dl>
+<div><p><a href="terms.html">Terms of service</a><br><a href="privacy.html">Privacy policy</a></p><p>&copy; 2026 Kakehashi Localization</p></div>
+</div></footer>
+
+<script>
+const S={
+game:{en:"Your inventory is full. Discard an item to pick this up.",ja:"持ち物がいっぱいです。拾うには、アイテムを1つ捨ててください。",why:"Game text has to be read in a second, mid-play. Japanese players expect a direct instruction, so we give the reason first and the action second."},
+saas:{en:"Your trial ends in 3 days. Upgrade now to keep your projects and team settings.",ja:"無料トライアルは残り3日で終了します。プロジェクトとチームの設定を引き続きご利用いただくには、今すぐアップグレードしてください。",why:"Billing messages need a polite register in Japanese. A blunt \"Upgrade now\" reads as pushy, so we keep the urgency and soften the tone."},
+shop:{en:"Your order has shipped. You can track the package from your account page. If anything is wrong with your order, reply to this email within 30 days and we will make it right.",ja:"ご注文の商品を発送しました。配送状況はマイページからご確認いただけます。商品に不備がございましたら、30日以内にこのメールへご返信ください。責任を持って対応いたします。",why:"Japanese shoppers expect specific, polite wording. A literal \"we will make it right\" sounds vague, so we say plainly that we take responsibility."}};
+function show(k){const s=S[k];document.getElementById('s-en').textContent=s.en;document.getElementById('s-ja').textContent=s.ja;document.getElementById('s-why').textContent=s.why;document.querySelectorAll('.tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.k===k))}
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>show(b.dataset.k));show('game');
+document.getElementById('qf').onsubmit=e=>{e.preventDefault();const v=id=>document.getElementById(id).value.trim();
+const body=`Name: ${v('f-name')}\nCompany: ${v('f-co')}\nEmail: ${v('f-mail')}\nService: ${v('f-svc')}\nWord count: ${v('f-words')}\nDeadline: ${v('f-date')}\n\n${v('f-msg')}\n\n(Please attach your files to this email.)`;
+location.href='mailto:contact@kakehashilocalization.com?subject='+encodeURIComponent('Quote request: '+v('f-co'))+'&body='+encodeURIComponent(body)};
+</script>
+</body>
+</html>
