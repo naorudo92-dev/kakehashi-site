@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Kakehashi Localization | English to Japanese translation</title>
-<meta name="description" content="English to Japanese localization for games, software and online stores. Machine translation edited by native Japanese linguists, or full human translation. Priced per source word, quoted in your currency.">
+<meta name="description" content="English to Japanese localization for games, software, online stores and video: edited machine translation, human translation, subtitles and LQA by native Japanese linguists in Japan. Quoted in your currency.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <style>
 @font-face{font-family:"EB Garamond";font-weight:400;font-display:swap;src:url(ebgaramond-400.woff2) format("woff2")}
@@ -50,6 +50,8 @@ h2{font-family:"EB Garamond",serif;font-weight:500;font-size:40px;line-height:1.
 .fields h3{font-family:"EB Garamond",serif;font-weight:500;font-size:27px;margin:0 0 4px}
 .fields .jp{font-family:"Shippori Mincho",serif;color:var(--beni);font-size:15px;margin:0 0 12px}
 .fields p{color:#3b4652;margin:0;font-size:16px}
+.fields.two{grid-template-columns:repeat(2,1fr)}
+.h2b{margin-top:96px}
 
 table{width:100%;border-collapse:collapse}
 th,td{text-align:left;padding:20px 16px 20px 0;border-bottom:1px solid var(--rule);vertical-align:top}
@@ -102,7 +104,7 @@ footer dt{color:#8f8780}footer dd{margin:0}
 
 @media(max-width:860px){
  .hero .wrap{grid-template-columns:1fr}.hero .tate{writing-mode:horizontal-tb;border-left:0;border-top:3px solid var(--beni);padding:18px 0 0;font-size:30px;letter-spacing:.06em}
- .hero h1{font-size:44px}nav{display:none}.fields,.pledge,.spread,form{grid-template-columns:1fr}
+ .hero h1{font-size:44px}nav{display:none}.fields,.fields.two,.pledge,.spread,form{grid-template-columns:1fr}.h2b{margin-top:72px}
  .spread div+div{border-left:0;border-top:1px solid var(--rule);padding-left:0}
  .steps{grid-template-columns:1fr}.steps li::after{display:none}.price-hint{display:block;margin:14px 0 0}
  td:first-child{width:auto}section{padding:72px 0}
@@ -136,15 +138,23 @@ footer dt{color:#8f8780}footer dd{margin:0}
 <div><h3>Software and SaaS</h3><p class="jp" lang="ja">ソフトウェア</p><p>Interface strings, help articles, onboarding and billing emails, and landing pages, worked directly in JSON, YAML, PO, XLIFF, CSV or spreadsheets.</p></div>
 <div><h3>Online stores</h3><p class="jp" lang="ja">オンラインストア</p><p>Product pages, size guides, shipping and return policies, and marketplace listings in the polite, precise tone Japanese shoppers expect.</p></div>
 </div>
+<h2 class="h2b">Subtitles and LQA</h2>
+<p class="lead">For the places your users actually meet the Japanese: on video, and on screen inside your product.</p>
+<div class="fields two">
+<div><h3>Japanese subtitles</h3><p class="jp" lang="ja">字幕</p><p>Trailers, tutorials, online courses and YouTube videos. Send your English captions (SRT or VTT) and get Japanese captions back on the same timing, ready to upload. Every line is checked for reading speed, and names stay the same from episode to episode.</p></div>
+<div><h3>Japanese LQA</h3><p class="jp" lang="ja">実機確認</p><p>We play your game or use your app in Japanese, the way your users will, and report what goes wrong on screen: cut-off or overflowing text, broken line breaks, characters that fail to display, and lines that make no sense in context. Every issue comes with a screenshot, where to find it and a suggested fix.</p></div>
+</div>
 </div></section>
 
 <section id="pricing"><div class="wrap">
 <h2>How pricing works</h2>
-<p class="lead">A fixed price per English source word, set by the service you choose and confirmed in writing before we start. No hourly billing and no project fees.</p>
+<p class="lead">Translation is priced per English source word, subtitles per minute of video, and LQA per hour up to a cap you approve. Every price is confirmed in writing before we start.</p>
 <table>
 <tr><th>Service</th><th>What you get</th></tr>
 <tr><td>Edited machine translation</td><td>Machine translation, then a native Japanese linguist edits every sentence and a second person checks numbers, terms and anything left out.</td></tr>
 <tr><td>Human translation</td><td>Translated by a native Japanese translator and reviewed by a second linguist. Best for marketing copy, dialogue and anything customer-facing.</td></tr>
+<tr><td>Japanese subtitles</td><td>Translated on your timing by a native Japanese translator and checked by a second linguist. Priced per minute of video.</td></tr>
+<tr><td>Japanese LQA</td><td>Testing on your build by a native Japanese linguist, with a screenshot and a suggested fix for every issue. Priced per hour, never above the cap you approve.</td></tr>
 <tr><td>Rush delivery</td><td>Delivery in roughly half the usual time, for 30% extra.</td></tr>
 </table>
 <p class="note">Exact repeated sentences are charged at 30% of the word rate. We quote in USD, EUR, GBP, CAD, AUD, SGD or CHF, usually within one business day, and quotes are valid for 7 days. Business customers only.</p>
@@ -154,11 +164,11 @@ footer dt{color:#8f8780}footer dd{margin:0}
 <h2>How a project runs</h2>
 <p class="lead">The same five steps every time, so you always know what happens next.</p>
 <ol class="steps">
-<li><h3>Quote</h3><p>Send your files. We count the words and usually reply within one business day.</p></li>
+<li><h3>Quote</h3><p>Send your files, video or build. We work out the size and usually reply within one business day.</p></li>
 <li><h3>Agree</h3><p>Reply "I agree" and pay 50% up front by card or bank transfer.</p></li>
-<li><h3>Translate</h3><p>A native linguist translates or edits. Context questions come to you in one batch.</p></li>
-<li><h3>Check</h3><p>A second person checks terms, numbers, tags and anything left out.</p></li>
-<li><h3>Deliver</h3><p>Files in your format, plus a glossary. The rest is due within 14 days.</p></li>
+<li><h3>Translate</h3><p>A native linguist translates, edits or tests. Context questions come to you in one batch.</p></li>
+<li><h3>Check</h3><p>A second linguist checks terms, numbers, tags and anything left out. LQA issues are verified one by one.</p></li>
+<li><h3>Deliver</h3><p>Files in your format with a glossary, or an issue report for LQA. The rest is due within 14 days.</p></li>
 </ol>
 </div></section>
 
@@ -178,10 +188,10 @@ footer dt{color:#8f8780}footer dd{margin:0}
 <h2>What you can count on</h2>
 <p class="lead">Four things we hold to on every project.</p>
 <div class="pledge">
-<div><h3>Native linguists in Japan</h3><p>Every project is translated or edited, then checked, by native Japanese linguists based in Japan, so the Japanese follows how people write today.</p></div>
-<div><h3>Two people on every file</h3><p>One person translates or edits, a different person checks. Nothing ships after a single pass.</p></div>
-<div><h3>Clear terms</h3><p>A written scope, a fixed delivery date and a per-word price. Read our <a href="terms.html">terms of service</a> before you order.</p></div>
-<div><h3>Your files stay private</h3><p>Used only for your project and deleted 30 days after delivery. We sign your NDA on request.</p></div>
+<div><h3>Native linguists in Japan</h3><p>Every project is handled by native Japanese linguists based in Japan, so the Japanese follows how people write today.</p></div>
+<div><h3>Two people on every translation</h3><p>One person translates or edits, a different person checks, subtitles included. Nothing ships after a single pass.</p></div>
+<div><h3>Clear terms</h3><p>A written scope, a fixed delivery date and a price agreed before we start. Read our <a href="terms.html">terms of service</a> before you order.</p></div>
+<div><h3>Your files stay private</h3><p>Files, videos and builds are used only for your project and deleted 30 days after delivery. We sign your NDA on request.</p></div>
 </div>
 </div></section>
 
@@ -189,9 +199,10 @@ footer dt{color:#8f8780}footer dd{margin:0}
 <h2>Questions</h2>
 <p class="lead">If yours is not here, email us.</p>
 <details><summary>Can you do a test translation first?</summary><p>Yes. We translate up to 300 words of your own content for a small fee, which we deduct from your first order.</p></details>
-<details><summary>Which file formats do you accept?</summary><p>JSON, YAML, PO, XLIFF, CSV, XLSX, DOCX, Markdown and HTML. If yours is not listed, send a sample and we will check.</p></details>
+<details><summary>Which file formats do you accept?</summary><p>JSON, YAML, PO, XLIFF, CSV, XLSX, DOCX, Markdown and HTML, plus SRT and VTT for subtitles. If yours is not listed, send a sample and we will check.</p></details>
 <details><summary>How fast can you deliver?</summary><p>As a guide, about 5,000 words in 5 business days for edited machine translation, and about 2,000 words in 3 business days for human translation. Rush delivery costs 30% extra.</p></details>
-<details><summary>Do you use AI?</summary><p>For edited machine translation, yes: a machine translation is the starting point and a native linguist edits every sentence. Human translation is done by a person from the start. Our AI tools are set not to use your content for training.</p></details>
+<details><summary>What do you need from us for LQA?</summary><p>A build or test link, any keys or test accounts, and the platforms and parts of the product to cover. We report issues in your tracker or in a spreadsheet. Fixing them is up to your team, and we re-check the fixes on request.</p></details>
+<details><summary>Do you use AI?</summary><p>For edited machine translation, yes: a machine translation is the starting point and a native linguist edits every sentence. Human translation and subtitle translation are done by a person from the start. Our AI tools are set not to use your content for training.</p></details>
 <details><summary>How do I pay?</summary><p>By card (Stripe) or bank transfer, in the currency of your quote: 50% before we start, 50% within 14 days of delivery.</p></details>
 <details><summary>What if I am not happy with the translation?</summary><p>Tell us within 7 days of delivery. Errors on our side are fixed free of charge at any time, and one round of style changes is free.</p></details>
 <details><summary>Do you work with translation agencies?</summary><p>Yes. Agencies can use us as their English to Japanese vendor. Ask us for vendor rates.</p></details>
@@ -205,8 +216,8 @@ footer dt{color:#8f8780}footer dd{margin:0}
 <div><label for="f-name">Your name</label><input id="f-name" autocomplete="name" required></div>
 <div><label for="f-co">Company</label><input id="f-co" autocomplete="organization" required></div>
 <div><label for="f-mail">Email</label><input id="f-mail" type="email" autocomplete="email" required></div>
-<div><label for="f-svc">Service</label><select id="f-svc"><option>Edited machine translation</option><option>Human translation</option><option>Not sure yet</option></select></div>
-<div><label for="f-words">Approximate word count</label><input id="f-words" placeholder="12,000"></div>
+<div><label for="f-svc">Service</label><select id="f-svc"><option>Edited machine translation</option><option>Human translation</option><option>Japanese subtitles</option><option>Japanese LQA</option><option>Not sure yet</option></select></div>
+<div><label for="f-words">Approximate size</label><input id="f-words" placeholder="12,000 words or 40 minutes of video"></div>
 <div><label for="f-date">Deadline</label><input id="f-date" placeholder="November 30"></div>
 <div class="full"><label for="f-msg">About the project</label><textarea id="f-msg" rows="5" placeholder="What it is, who will read it, and any file formats or tools we should know about"></textarea></div>
 <div class="full"><button class="btn" type="submit">Open email with my request</button></div>
@@ -231,7 +242,7 @@ shop:{en:"Your order has shipped. You can track the package from your account pa
 function show(k){const s=S[k];document.getElementById('s-en').textContent=s.en;document.getElementById('s-ja').textContent=s.ja;document.getElementById('s-why').textContent=s.why;document.querySelectorAll('.tabs button').forEach(b=>b.setAttribute('aria-selected',b.dataset.k===k))}
 document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>show(b.dataset.k));show('game');
 document.getElementById('qf').onsubmit=e=>{e.preventDefault();const v=id=>document.getElementById(id).value.trim();
-const body=`Name: ${v('f-name')}\nCompany: ${v('f-co')}\nEmail: ${v('f-mail')}\nService: ${v('f-svc')}\nWord count: ${v('f-words')}\nDeadline: ${v('f-date')}\n\n${v('f-msg')}\n\n(Please attach your files to this email.)`;
+const body=`Name: ${v('f-name')}\nCompany: ${v('f-co')}\nEmail: ${v('f-mail')}\nService: ${v('f-svc')}\nSize: ${v('f-words')}\nDeadline: ${v('f-date')}\n\n${v('f-msg')}\n\n(Please attach your files to this email.)`;
 location.href='mailto:contact@kakehashilocalization.com?subject='+encodeURIComponent('Quote request: '+v('f-co'))+'&body='+encodeURIComponent(body)};
 </script>
 </body>
